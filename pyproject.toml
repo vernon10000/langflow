@@ -290,5 +290,19 @@ openai = "^0.27.0"
 [tool.poetry.dev-dependencies]
 pytest = "^6.2"
 
+[tool.poetry]
+name = "your-project-name"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <yourname@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^2.1.0"
+openai = "^0.27.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
 
 
